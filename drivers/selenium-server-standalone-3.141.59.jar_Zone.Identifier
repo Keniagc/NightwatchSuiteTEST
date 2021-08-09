@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://www.seleniumhq.org/download/
+HostUrl=https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar

@@ -1,0 +1,51 @@
+{
+  "src_folders" : ["Test/functions"],
+  "page_objects_path" :[ "/Users/carlos/Desktop/Test-Example/Test/page-objects"],
+  
+  "webdriver" : {
+    "start_process": true,
+    "host": "localhost",
+    "port":4444,
+    "server_path": "node_modules/geckodriver/bin/geckodriver",
+    "javascriptEnabled": true,
+    "acceptSslCerts": true,
+    "browserName": "firefox",
+    
+  "cli_args": {
+    "chromedriver.chrome.driver": "bin/chromedriver",
+    "webdriver.gecko.driver": "bin/geckodriver",
+    "acceptSslCerts": true
+  }
+        
+},
+  "test_settings" : {
+
+    "default" :{
+      "desiredCapabilities": {
+        "build" : "Quality Assurance",
+        "name" : "Nightwatch TestSuite",
+        "browserName": "firefox",
+        "javascriptEnabled":true,
+        "acceptInsecureCerts": true,
+        "unit_tests_mode":true,
+        "acceptSslCerts": true,
+        "disable-web-security": true,
+        "ignore-certificate-errors": true,
+        "console" : true,
+        "detailed_output": true, 
+        "silent": false,
+        "alwaysMatch": {
+          "moz:firefoxOptions": {
+          }
+        }    
+      
+      }
+
+
+
+    }
+
+    
+  }
+
+}
