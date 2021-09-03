@@ -1,6 +1,6 @@
 {
   "src_folders" : ["Test/functions"],
-  "page_objects_path" :[ "/Users/carlos/Desktop/Test-Example/Test/page-objects"],
+  "page_objects_path" :[ "Test/page-objects"],
   
   "webdriver" : {
     "start_process": true,

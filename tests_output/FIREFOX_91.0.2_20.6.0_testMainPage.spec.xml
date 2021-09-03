@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="testMainPage.spec"
+    errors="0" failures="0" hostname="" id="" package="testMainPage.spec" skipped="0"
+    tests="2" time="0.8700" timestamp="">
+  
+    <testcase name="Validate: Login Swag Labs Page" classname="testMainPage.spec" time="0.08700" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Login: Standar User" classname="testMainPage.spec" time="0.7830" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

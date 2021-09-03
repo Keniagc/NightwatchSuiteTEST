@@ -45,3 +45,8 @@ To run HTML reports:
 # Nightwatch HTML REPORTER
 Install HTML reporter:
 ```npm install --save nightwatch-html-reporter```
+
+# PERSONAL INSTALL
+Change page object model PATH: Search file after clone repository and change this Path
+```nightwatch.json```
+```"page_objects_path" :[ "/Nightwatch/NightwatchSuite/Test/page-objects"],```
