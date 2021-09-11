@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Test Results - Example Test Report {{browser}}</title>
+  <title>Test Results - Example Test Report FIREFOX 92.0 20.6.0 </title>
 
   <style>
     html, body {
@@ -62,77 +62,74 @@
 
   <table border="0" cellpadding="0" cellspacing="0">
     <tr class="overview">
-      <td colspan="3" title="{{browser}}"><strong>Browser:</strong> {{browser}}</td>
+      <td colspan="3" title="FIREFOX 92.0 20.6.0 "><strong>Browser:</strong> FIREFOX 92.0 20.6.0 </td>
     </tr>
     <tr class="overview">
-      <td colspan="3"><strong>Timestamp:</strong> {{timestamp}}</td>
+      <td colspan="3"><strong>Timestamp:</strong> Sat Sep 11 2021 16:41:59 GMT-0500 (Central Daylight Time)</td>
     </tr>
     <tr class="overview last">
-      <td colspan="3"><strong>Tests:</strong> {{results.tests}}<br></td>
+      <td colspan="3"><strong>Tests:</strong> 0<br></td>
     </tr>
     <tr>
-      <td class="pass"><strong>{{results.passed}}</strong> passed</td>
-      <td class="skip"><strong>{{results.errors}}</strong> errors</td>
-      <td class="fail"><strong>{{results.failed}}</strong> failures</td>
+      <td class="pass"><strong>3</strong> passed</td>
+      <td class="skip"><strong>1</strong> errors</td>
+      <td class="fail"><strong>0</strong> failures</td>
     </tr>
   </table>
   <h3>Test Description:</h3>
-  <p>{{description}}</p>
+  <p>Description Test: Validate Login access with vaild and invaild user</p>
   <h3>Test Name:</h3>
   
-  {{#each results.modules}}
-      <h2>{{@key}}</h2>
+      <h2>testLogin.spec</h2>
       
-      {{#each this.completed}}
-        <h3>{{@key}}</h3>
+        <h3>Login: Login Standar User</h3>
         <ul class="assertions">
-          {{#each this.assertions}}
             <li>
-              {{#if failure}}
-                <span class="error">&#10006;</span>
-              {{else}}
                 <span class="success">&#10004;</span>
-              {{/if}}
 
-              {{this.message}}
+              Testing if element [0;33m&lt;Element [name&#x3D;@loginButton]&gt;[0m is visible [0;90m(34ms)[0m
 
-              {{#if this.failure}}
-                {{this.failure}}
-              {{/if}}
 
-              {{#if this.stacktrace}}
-                <div class="stacktrace">
-                    <a href="#">view stacktrace</a>
-                    <code><pre>{{this.stacktrace}}</pre></code>
-                </div>
-              {{/if}}
             </li>
-          {{/each}}
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@logoTodoist]&gt;[0m is visible [0;90m(50ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@homeBtnApp]&gt;[0m is visible [0;90m(1025ms)[0m
+
+
+            </li>
         </ul>
 
         <p>
-          {{#if this.failed}}
-            <span class="error"><strong>FAILED:</strong></span>
-            <span class="error"><strong>{{this.failed}}</strong></span> assertions failed and
-            <span class="success"><strong>{{this.passed}}</span></strong> passed. ({{this.time}}s)
-          {{else}}
             <span class="success"><strong>OK.</strong></span>
-            <span class="success"><strong>{{this.passed}}</strong></span> assertions passed. ({{this.time}}s)
-          {{/if}}
+            <span class="success"><strong>3</strong></span> assertions passed. (3.081s)
         </p>
-      {{/each}}
-
-      {{#if this.skipped}}
-        <h4>skipped</h4>
-        <ul>
-          {{#each this.skipped}}
-            <li>{{this}}</li>
-          {{/each}}
+        <h3>Log Out: Log out from Standar User</h3>
+        <ul class="assertions">
         </ul>
-      {{/if}}
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>0</strong></span> assertions passed. (1.817s)
+        </p>
+        <h3>Login: Login Invalid User</h3>
+        <ul class="assertions">
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>0</strong></span> assertions passed. (0.02500s)
+        </p>
+
 
       <hr>
-  {{/each}}
   
 
   <div id="nightwatch-logo"></div>

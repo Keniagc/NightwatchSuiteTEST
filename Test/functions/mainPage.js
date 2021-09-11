@@ -5,10 +5,8 @@ module.exports = function (browser) {
     const mainPage = browser.page.mainPage();
 
 
-    this.loginPage = async () =>{
-        mainPage.assert.visible('')
 
-    }
+    
     
         
 

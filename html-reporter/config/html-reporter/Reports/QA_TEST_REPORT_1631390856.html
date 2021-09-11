@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Test Results - Example Test Report {{browser}}</title>
+  <title>Test Results - Example Test Report </title>
 
   <style>
     html, body {
@@ -56,83 +56,39 @@
 </head>
 
 <body>
-  <h1>Test Results: QA Challenge Todoist Report</h1>
+  <h1>Test Results: Executive Succession & Development</h1>
   <h2>Section: </h2>
   <h3>Quality Assurance Team : Carlos Eduardo Cervantes Arteaga</h3>
 
   <table border="0" cellpadding="0" cellspacing="0">
     <tr class="overview">
-      <td colspan="3" title="{{browser}}"><strong>Browser:</strong> {{browser}}</td>
+      <td colspan="3" title=""><strong>Browser:</strong> </td>
     </tr>
     <tr class="overview">
-      <td colspan="3"><strong>Timestamp:</strong> {{timestamp}}</td>
+      <td colspan="3"><strong>Timestamp:</strong> Sat Sep 11 2021 15:07:36 GMT-0500 (Central Daylight Time)</td>
     </tr>
     <tr class="overview last">
-      <td colspan="3"><strong>Tests:</strong> {{results.tests}}<br></td>
+      <td colspan="3"><strong>Tests:</strong> 0<br></td>
     </tr>
     <tr>
-      <td class="pass"><strong>{{results.passed}}</strong> passed</td>
-      <td class="skip"><strong>{{results.errors}}</strong> errors</td>
-      <td class="fail"><strong>{{results.failed}}</strong> failures</td>
+      <td class="pass"><strong>0</strong> passed</td>
+      <td class="skip"><strong>1</strong> errors</td>
+      <td class="fail"><strong>0</strong> failures</td>
     </tr>
   </table>
   <h3>Test Description:</h3>
-  <p>{{description}}</p>
+  <p>Description Test: Validate Login access with vaild and invaild user</p>
   <h3>Test Name:</h3>
   
-  {{#each results.modules}}
-      <h2>{{@key}}</h2>
+      <h2>testLogin.spec</h2>
       
-      {{#each this.completed}}
-        <h3>{{@key}}</h3>
-        <ul class="assertions">
-          {{#each this.assertions}}
-            <li>
-              {{#if failure}}
-                <span class="error">&#10006;</span>
-              {{else}}
-                <span class="success">&#10004;</span>
-              {{/if}}
 
-              {{this.message}}
-
-              {{#if this.failure}}
-                {{this.failure}}
-              {{/if}}
-
-              {{#if this.stacktrace}}
-                <div class="stacktrace">
-                    <a href="#">view stacktrace</a>
-                    <code><pre>{{this.stacktrace}}</pre></code>
-                </div>
-              {{/if}}
-            </li>
-          {{/each}}
-        </ul>
-
-        <p>
-          {{#if this.failed}}
-            <span class="error"><strong>FAILED:</strong></span>
-            <span class="error"><strong>{{this.failed}}</strong></span> assertions failed and
-            <span class="success"><strong>{{this.passed}}</span></strong> passed. ({{this.time}}s)
-          {{else}}
-            <span class="success"><strong>OK.</strong></span>
-            <span class="success"><strong>{{this.passed}}</strong></span> assertions passed. ({{this.time}}s)
-          {{/if}}
-        </p>
-      {{/each}}
-
-      {{#if this.skipped}}
         <h4>skipped</h4>
         <ul>
-          {{#each this.skipped}}
-            <li>{{this}}</li>
-          {{/each}}
+            <li>Login: Login Standar User</li>
         </ul>
-      {{/if}}
 
       <hr>
-  {{/each}}
   
 
   <div id="nightwatch-logo"></div>
