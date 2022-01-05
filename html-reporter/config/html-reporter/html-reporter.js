@@ -16,13 +16,10 @@ module.exports = {
       if (err) throw err;
 
       var template = data.toString();
-      var description = 'Description Test: Validate Login access with vaild and invaild user'
-
       // merge the template with the test results data
       var html = handlebars.compile(template)({
         results   : results,
         options   : options,
-        description : description,
         timestamp : new Date().toString(),
         browser   : options.filename_prefix.split('_').join(' ')
         

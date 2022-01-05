@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="2"
+            tests="2">
+
+  <testsuite name="testMainPage.spec"
+    errors="2" failures="2" hostname="" id="" package="testMainPage.spec" skipped="0"
+    tests="2" time="15.45" timestamp="">
+  
+    <testcase name="Login: Login Standar User" classname="testMainPage.spec" time="5.297" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Login: Standar User" classname="testMainPage.spec" time="10.16" assertions="2">  <failure message="Testing if element &lt;Element [name=@errorLoginText]&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (5072ms)">    at invalidUser (/Users/carlos.arteaga/Documents/GitHub/NightwatchSuite/Test/pages/login.js:25:36)
+    at Object.Login: Standar User (/Users/carlos.arteaga/Documents/GitHub/NightwatchSuite/Test/tests/testMainPage.spec.js:17:26)</failure>
+
+      <failure message="Testing if element &lt;Element [name=@errorLoginText]&gt; contains text &#39;Invalid email address.&#39; in 5000ms - expected &#34;contains text &#39;Invalid email address.&#39;&#34; but got: &#34;element could not be located&#34; (5061ms)">    at invalidUser (/Users/carlos.arteaga/Documents/GitHub/NightwatchSuite/Test/pages/login.js:26:36)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Object.Login: Standar User (/Users/carlos.arteaga/Documents/GitHub/NightwatchSuite/Test/tests/testMainPage.spec.js:17:5)</failure>
+
+    
+    <error message="Error while running &#34;containsText&#34; command: Testing if element [0;33m&lt;Element [name=@errorLoginText]&gt;[0m contains text [0;33m&#39;Invalid email address.&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Invalid email address.&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5061ms)[0m" type="error"><![CDATA[
+        at invalidUser (/Users/carlos.arteaga/Documents/GitHub/NightwatchSuite/Test/pages/login.js:26:36)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Object.Login: Standar User (/Users/carlos.arteaga/Documents/GitHub/NightwatchSuite/Test/tests/testMainPage.spec.js:17:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .isVisible() command on &lt;Element [name=@errorLoginText]&gt;: 
+   {&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:95:5)
+  NoSuchElementError: An error occurred while running .getText() command on &lt;Element [name=@errorLoginText]&gt;: 
+   {&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
