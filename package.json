@@ -4,7 +4,7 @@
         "main": "index.js",
         "scripts": {
                 "Test:Login": "nightwatch Test/tests/testLogin.spec.js --reporter html-reporter/config/html-reporter/html-reporter.js",
-                "Test:mainPage": "nightwatch Test/tests/testMainPage.spec.js"
+                "Test:mainPage": "nightwatch Test/tests/testMainPage.spec.js --reporter html-reporter/config/html-reporter/html-reporter.js"
         },
         "keywords": [],
         "author": "CARLOS EDUARDO CERVANTES ARTEAGA",
@@ -19,7 +19,7 @@
                 "cucumber": "^5.1.0",
                 "geckodriver": "^1.22.3",
                 "handlebars": "^4.7.7",
-                "nightwatch": "^1.6.2",
+                "nightwatch": "^1.7.13",
                 "nightwatch-html-reporter": "^2.0.6",
                 "nightwatch-slack-reporter": "0.0.2",
                 "selenium-webdriver": "^4.0.0-alpha.7"

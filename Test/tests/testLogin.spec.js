@@ -1,5 +1,5 @@
-const login = require('../functions/login.js');
-const envstage  = require('../enviroments/stage-env.js');
+const login = require('../pages/login.js');
+const envstage  = require('../env/stage-env.js');
 
 module.exports = {
   '@tags': ['NightwatchSuite'],

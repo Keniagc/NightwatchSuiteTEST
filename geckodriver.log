@@ -1,23 +1,18 @@
-1631396725585	geckodriver	INFO	Listening on 127.0.0.1:4444
-1631396725795	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ky/5zhjky4x3hl919n9ktpf108h0000gn/T/rust_mozprofile3041SK"
-1631396726199	Marionette	INFO	Marionette enabled
-2021-09-11 16:45:26.865 firefox-bin[18586:740622] Warning: Expected min height of view: (<NSButton: 0x133112400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2021-09-11 16:45:26.865 firefox-bin[18586:740622] Warning: Expected min height of view: (<NSButton: 0x135305000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2021-09-11 16:45:26.866 firefox-bin[18586:740622] Warning: Expected min height of view: (<NSButton: 0x135309800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2021-09-11 16:45:26.866 firefox-bin[18586:740622] Warning: Expected min height of view: (<NSButton: 0x135305400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2021-09-11 16:45:26.867 firefox-bin[18586:740622] Warning: Expected min height of view: (<NSButton: 0x135302800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2021-09-11 16:45:26.867 firefox-bin[18586:740622] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x135309000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-2021-09-11 16:45:26.868 firefox-bin[18586:740622] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13530c000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/ky/5zhjky4x3hl919n9ktpf108h0000gn/T/rust_mozprofile3041SK/search.json.mozlz4", (void 0)))
+1641407785017	geckodriver	INFO	Listening on 127.0.0.1:4444
+1641407785241	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/ky/5zhjky4x3hl919n9ktpf108h0000gn/T/rust_mozprofileRiyyW6"
+1641407785583	Marionette	INFO	Marionette enabled
+2022-01-05 12:36:26.206 firefox-bin[34132:4427644] Warning: Expected min height of view: (<NSButton: 0x123e95400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-05 12:36:26.207 firefox-bin[34132:4427644] Warning: Expected min height of view: (<NSButton: 0x12ba6f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-05 12:36:26.208 firefox-bin[34132:4427644] Warning: Expected min height of view: (<NSButton: 0x12ba71000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-05 12:36:26.208 firefox-bin[34132:4427644] Warning: Expected min height of view: (<NSButton: 0x12ba6e800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-05 12:36:26.209 firefox-bin[34132:4427644] Warning: Expected min height of view: (<NSButton: 0x12ba71c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-05 12:36:26.209 firefox-bin[34132:4427644] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12ba71400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-01-05 12:36:26.210 firefox-bin[34132:4427644] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12baa8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/ky/5zhjky4x3hl919n9ktpf108h0000gn/T/rust_mozprofileRiyyW6/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-1631396727855	Marionette	INFO	Listening on port 55987
-JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MF4CZSB&gtm_auth=1nvG3iE405yFhG8LM5F0nQ&gtm_preview=env-2&gtm_cookies_win=x, line 313: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MF4CZSB&gtm_auth=1nvG3iE405yFhG8LM5F0nQ&gtm_preview=env-2&gtm_cookies_win=x, line 313: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MF4CZSB&gtm_auth=1nvG3iE405yFhG8LM5F0nQ&gtm_preview=env-2&gtm_cookies_win=x, line 313: unreachable code after return statement
-JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MF4CZSB&gtm_auth=1nvG3iE405yFhG8LM5F0nQ&gtm_preview=env-2&gtm_cookies_win=x, line 313: unreachable code after return statement
-1631396736539	Marionette	INFO	Stopped listening on port 55987
-JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1641407787144	Marionette	INFO	Listening on port 50307
+1641407801929	Marionette	INFO	Stopped listening on port 50307
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 

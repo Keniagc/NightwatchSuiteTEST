@@ -1,5 +1,5 @@
 {
-  "src_folders" : ["Test/functions"],
+  "src_folders" : ["Test/pages"],
   "page_objects_path" :[ "Test/page-objects"],
   
   "webdriver" : {

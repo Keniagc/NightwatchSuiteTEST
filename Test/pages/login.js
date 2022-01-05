@@ -25,15 +25,19 @@ module.exports = function (browser) {
             await loginPage.assert.visible('@errorLoginText')
             await loginPage.verify.containsText('@errorLoginText',dataTest.WrongUserText)
         }
-        
-        //INVALID USER VALIDATION
-        this.loginInvalidUser = async () => {
+
+        this.setCredentials = async () => {
             await mainPage.click('@loginButton')
             await loginPage.click('@email')
             await loginPage.setValue('@email', usersTest.invalidUser)
             await loginPage.click('@password')
             await loginPage.setValue('@password', usersTest.password)
             await loginPage.click('@loginbutton')
+        }
+        
+        //INVALID USER VALIDATION
+        this.loginInvalidUser = async () => {
+            await this.setCredentials()
             await this.invalidUser()
             await this.clearFields()
         };
